@@ -1,7 +1,12 @@
 import React from "react";
+import CreatePost from "./createPost";
 
 const App = () => {
-    return <div>React Course</div>;
-}
+    return (
+        <div>
+            <CreatePost />
+        </div>
+    );
+};
 
 export default App;
